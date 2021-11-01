@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang = "en">
     <head>
-        <h1>Avengers Character Search</h1>
         <meta charset = "UTF-8"/>
         <meta name = "viewport" content = "width = device-width, initial-scale=1.0"/>
         <meta http-equiv = "X-UA-Compatible" content = "ie=edge"/>
@@ -9,10 +8,20 @@
         <link rel = "stylesheet" href="styles.css"/>
     </head>
     <body>
-        <form action = "superheroes.php">
-            
-        </form>
-        
+        <header>
+            <h1>AVENGERS CHARACTER SEARCH</h1>
+        </header>
+        <div class = "search">
+            <form class = "form" action = "superheroes.php" method = "post">
+                <h3>Search by Full Name or Alias</h3>
+                <input type = "text" name = "input"
+                placeholder = "Example: Wanda Maximoff aka Scarlett Witch">
+                <button type = "submit" id = "searchBtn">Search</button>
+            </form>
+        </div>
+        <h3>RESULT</h3> 
+        <hr>
+        <div id = "Result"></div>
     </body>
     <script src = "app.js"></script>
 </html>
