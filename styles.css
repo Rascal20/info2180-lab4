@@ -1,0 +1,33 @@
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #4d8ab5;
+    color: white;
+    align-content: center;
+    font-size: 25px;
+}
+body{
+    background-color: whitesmoke;
+}
+.search{
+    display: flex;
+    justify-content: center;
+}
+button{
+    color: whitesmoke;
+    background-color: red;
+    height: 36px;
+    width: 80px;
+    border-radius: 5px;
+}
+input{
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+}
+body > h3{
+    margin-left: 218px;
+}
+.result{
+    margin-left: 218px;
+}
